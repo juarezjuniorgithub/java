@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.juarezjunior.examples</groupId>
+	<artifactId>com.juarezjunior.examples.guicesingleton</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>guice-singleton-example</name>
+	<description>Google Guice Singleton Example</description>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+			<version>4.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.glassfish.hk2.external</groupId>
+			<artifactId>aopalliance-repackaged</artifactId>
+			<version>2.5.0-b36</version>
+		</dependency>
+
+	</dependencies>
+</project>
