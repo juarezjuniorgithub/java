@@ -1,2 +1,2 @@
 # java
-Java code samples, exercises, components, others
+Java code samples, code I create to help my colleagues, components, exercises, self-learning stuff, others
