@@ -2,7 +2,7 @@ package com.juarezjunior.java.certification.section1.exercise3;
 
 /**
  *
- * @author juarezjuniorgithub
+ * @author @juarezjuniorgithub
  *
  *         Section 1, Exercise 3
  *

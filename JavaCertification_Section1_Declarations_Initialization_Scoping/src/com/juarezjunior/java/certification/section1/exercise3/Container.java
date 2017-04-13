@@ -2,7 +2,7 @@ package com.juarezjunior.java.certification.section1.exercise3;
 
 /**
  *
- * @author @githubjuarezjunior
+ * @author @juarezjuniorgithub
  */
 public class Container {
 
