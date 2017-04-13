@@ -8,10 +8,10 @@ import java.awt.Color;
  *
  *         Section 1, Exercise 1
  *
- *         Create a project with two simple Java classes (Vehicle and Car) and
- *         demonstrate in practice the following OO concepts: inheritance,
- *         encapsulation (data hiding), method overloading, method overriding,
- *         object instantiation, polymorphism.
+ *         Create two simple Java classes (Vehicle and Car) and demonstrate in
+ *         practice the following OO concepts: inheritance, encapsulation (data
+ *         hiding), method overloading, method overriding, object instantiation,
+ *         polymorphism.
  *
  *         References:
  *
