@@ -1,4 +1,4 @@
-package com.juarezjunior.java.certification.section3.exercise10;
+package com.juarezjunior.java.certification.section3.exercise2;
 
 import java.util.ArrayList;
 import java.util.List;
