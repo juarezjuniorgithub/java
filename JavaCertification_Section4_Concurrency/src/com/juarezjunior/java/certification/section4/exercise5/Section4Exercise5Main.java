@@ -13,7 +13,7 @@ package com.juarezjunior.java.certification.section4.exercise5;
  *         http://docs.oracle.com/javase/tutorial/essential/concurrency/join.html
  *
  */
-public class ThreadJoinExample {
+public class Section4Exercise5Main {
 
 	public static void main(String[] args) {
 
