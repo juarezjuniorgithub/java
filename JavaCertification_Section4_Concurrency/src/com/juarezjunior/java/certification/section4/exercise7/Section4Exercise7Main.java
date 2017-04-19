@@ -4,7 +4,7 @@ package com.juarezjunior.java.certification.section4.exercise7;
  *
  * @author juarezjuniorgithub
  *
- *         Section 4, Exercise 6
+ *         Section 4, Exercise 7
  *
  *         Create a class that demonstrates the use of a synchronized statement
  *         (code block)
