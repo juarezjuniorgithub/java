@@ -6,7 +6,7 @@ package com.juarezjunior.java.certification.section4.exercise4;
  *
  *         Section 4, Exercise 4
  *
- *         Create a class that demonstrates how to pause a thread for 10 seconds
+ *         Create a class that demonstrates how to interrupt a thred
  *         by using the interrupt() and Thread.interrupted() methods
  *
  *         References:
