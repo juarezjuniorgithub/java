@@ -17,9 +17,7 @@ public class FSTAndGzipCompressionSample {
 	public static void main(String[] args) {
 		FSTAndGzipCompressionSample test = new FSTAndGzipCompressionSample();
 		try {
-			InputStream is = FSTAndGzipCompressionSample.class.getResourceAsStream("/fornecedores.json");
 			File file = new File("fornecedores.json");
-			test.InputStreamToFile(is, file);
 			JSONParser parser = new JSONParser();
 			Object obj = parser.parse(new FileReader(file));
 			JSONObject jsonObject = (JSONObject) obj;
