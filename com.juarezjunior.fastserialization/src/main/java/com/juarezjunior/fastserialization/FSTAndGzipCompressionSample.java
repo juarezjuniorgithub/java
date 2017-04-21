@@ -1,4 +1,4 @@
-package com.pethelpapp.messageformat;
+package com.juarezjunior.fastserialization;
 
 import java.io.File;
 import java.io.FileOutputStream;
