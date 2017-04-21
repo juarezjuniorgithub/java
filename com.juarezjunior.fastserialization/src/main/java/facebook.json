@@ -1,0 +1,31 @@
+{
+    "interaction": {
+        "type": "facebook",
+        "content": "Presidential Elections!",
+        "source": "Facebook for iPhone",
+        "id": "1e150e26da22a780e06635591f6759f4",
+        "created_at": "Mon, 06 Feb 2012 16:48:43 +0000"
+    },
+    "facebook": {
+        "likes": {
+            "count": 4,
+            "names": [
+                "George Washington",
+                "John Adams",
+                "Thomas Jefferson",
+                "James Madison"
+            ],
+            "ids": [
+                "1111111111",
+                "2222222222",
+                "3333333333",
+                "4444444444"
+            ]
+        },
+        "application": "Facebook for iPhone",
+        "type": "status",
+        "message": "Presidential Elections!",
+        "source": "Facebook for iPhone (6628568379)",
+        "id": "570568817_10150583661558858"
+    }
+}
