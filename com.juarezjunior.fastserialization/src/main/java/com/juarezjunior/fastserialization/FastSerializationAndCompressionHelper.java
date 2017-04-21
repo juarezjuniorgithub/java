@@ -89,14 +89,14 @@ public class FastSerializationAndCompressionHelper {
 		ByteArrayInputStream compressedInputStream = new ByteArrayInputStream(compressedArraytoDecompress);
 		CompressorInputStream inZipped = new CompressorStreamFactory()
 				.createCompressorInputStream(CompressorStreamFactory.GZIP, compressedInputStream);
-		ByteArrayOutputStream alocacoesUnzipped = new ByteArrayOutputStream();
-		IOUtils.copy(inZipped, alocacoesUnzipped);
+		ByteArrayOutputStream bosUnzipped = new ByteArrayOutputStream();
+		IOUtils.copy(inZipped, bosUnzipped);
 		inZipped.close();
 		if (LOGGER.isLoggable(Level.INFO)) {
 			LOGGER.log(Level.INFO, new StringBuilder("fromGizpArrayToFastSerialization - FST SIZE: ")
-					.append(alocacoesUnzipped.toByteArray().length).toString());
+					.append(bosUnzipped.toByteArray().length).toString());
 		}
-		return alocacoesUnzipped.toByteArray();
+		return bosUnzipped.toByteArray();
 	}
 
 }
