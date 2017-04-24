@@ -1,4 +1,4 @@
-package com.juarezjunior.javase7.binaryliterals;
+package com.juarezjunior.javase7.binary_literals;
 
 public class BinaryLiteralsExerciseExample {
 
