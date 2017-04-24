@@ -34,7 +34,7 @@ public enum ReactiveAsyncCommandsEnum {
 
 	TRACE_COMMAND_GEN_GROUP("ReactiveAsyncHttpTraceCommandGenericTypeResponse"),
 
-	DELETE_COMMAND_RESP_GROUP("ReactiveAsyncHttpDeleteImperativeCommandResponse"),
+	DELETE_COMMAND_RESP_GROUP("ReactiveAsyncHttpDeleteCommandResponse"),
 
 	GET_COMMAND_RESP_GROUP("ReactiveAsyncHttpGetCommandResponse"),
 

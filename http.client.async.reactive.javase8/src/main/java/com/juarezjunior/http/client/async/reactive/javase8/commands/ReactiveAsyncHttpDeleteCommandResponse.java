@@ -22,7 +22,7 @@ import com.netflix.hystrix.HystrixCommand;
 import com.netflix.hystrix.HystrixCommandGroupKey;
 import com.netflix.hystrix.HystrixCommandProperties;
 
-public class ReactiveAsyncHttpDeleteImperativeCommandResponse<T> extends HystrixCommand<CompletionStage<Response>> {
+public class ReactiveAsyncHttpDeleteCommandResponse<T> extends HystrixCommand<CompletionStage<Response>> {
 
 	protected String stringTarget;
 
@@ -41,7 +41,7 @@ public class ReactiveAsyncHttpDeleteImperativeCommandResponse<T> extends Hystrix
 
 	protected Object[] informedAdditionalProperties;
 
-	public ReactiveAsyncHttpDeleteImperativeCommandResponse(final String targetUrl, final int timeout,
+	public ReactiveAsyncHttpDeleteCommandResponse(final String targetUrl, final int timeout,
 			Object... additionalProperties) {
 
 		super(Setter
@@ -56,7 +56,7 @@ public class ReactiveAsyncHttpDeleteImperativeCommandResponse<T> extends Hystrix
 		this.httpRequestTargetType = ReactiveAsyncUtilsEnum.STRING_URL.value();
 	}
 
-	public ReactiveAsyncHttpDeleteImperativeCommandResponse(final Link link, final int timeout,
+	public ReactiveAsyncHttpDeleteCommandResponse(final Link link, final int timeout,
 			Object... additionalProperties) {
 
 		super(Setter
@@ -71,7 +71,7 @@ public class ReactiveAsyncHttpDeleteImperativeCommandResponse<T> extends Hystrix
 		this.httpRequestTargetType = ReactiveAsyncUtilsEnum.LINK.value();
 	}
 
-	public ReactiveAsyncHttpDeleteImperativeCommandResponse(final URI uri, final int timeout,
+	public ReactiveAsyncHttpDeleteCommandResponse(final URI uri, final int timeout,
 			Object... additionalProperties) {
 
 		super(Setter
@@ -86,7 +86,7 @@ public class ReactiveAsyncHttpDeleteImperativeCommandResponse<T> extends Hystrix
 		this.httpRequestTargetType = ReactiveAsyncUtilsEnum.URI.value();
 	}
 
-	public ReactiveAsyncHttpDeleteImperativeCommandResponse(final UriBuilder uriBuilder, final int timeout,
+	public ReactiveAsyncHttpDeleteCommandResponse(final UriBuilder uriBuilder, final int timeout,
 			Object... additionalProperties) {
 
 		super(Setter
@@ -101,7 +101,7 @@ public class ReactiveAsyncHttpDeleteImperativeCommandResponse<T> extends Hystrix
 		this.httpRequestTargetType = ReactiveAsyncUtilsEnum.URIBUILDER.value();
 	}
 
-	public ReactiveAsyncHttpDeleteImperativeCommandResponse(final RxWebTarget<RxCompletionStageInvoker> target,
+	public ReactiveAsyncHttpDeleteCommandResponse(final RxWebTarget<RxCompletionStageInvoker> target,
 			final int timeout, Object... additionalProperties) {
 
 		super(Setter

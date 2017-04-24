@@ -21,7 +21,7 @@ import com.juarezjunior.http.client.async.reactive.javase8.commands.ReactiveAsyn
 import com.juarezjunior.http.client.async.reactive.javase8.commands.ReactiveAsyncHttpDeleteCommandClassResponse;
 import com.juarezjunior.http.client.async.reactive.javase8.commands.ReactiveAsyncHttpDeleteCommandGenericTypeResponse;
 import com.juarezjunior.http.client.async.reactive.javase8.commands.ReactiveAsyncHttpDeleteCommandTextResponse;
-import com.juarezjunior.http.client.async.reactive.javase8.commands.ReactiveAsyncHttpDeleteImperativeCommandResponse;
+import com.juarezjunior.http.client.async.reactive.javase8.commands.ReactiveAsyncHttpDeleteCommandResponse;
 import com.juarezjunior.http.client.async.reactive.javase8.commands.ReactiveAsyncHttpGetCommandClassResponse;
 import com.juarezjunior.http.client.async.reactive.javase8.commands.ReactiveAsyncHttpGetCommandGenericTypeResponse;
 import com.juarezjunior.http.client.async.reactive.javase8.commands.ReactiveAsyncHttpGetCommandResponse;
@@ -705,7 +705,7 @@ public class ReactiveAsyncOrchestrator implements IReactiveAsyncOrchestrator {
 	public <T> ReactiveAsyncCommandsResults<T> httpDeleteRequestForResponse(final String stringURL, final int timeout,
 			Object... additionalProperties) {
 
-		final ReactiveAsyncHttpDeleteImperativeCommandResponse<T> command = new ReactiveAsyncHttpDeleteImperativeCommandResponse<T>(
+		final ReactiveAsyncHttpDeleteCommandResponse<T> command = new ReactiveAsyncHttpDeleteCommandResponse<T>(
 				stringURL, timeout);
 
 		final Future<CompletionStage<Response>> future = command.queue();
@@ -721,7 +721,7 @@ public class ReactiveAsyncOrchestrator implements IReactiveAsyncOrchestrator {
 	public <T> ReactiveAsyncCommandsResults<T> httpDeleteRequestForResponse(final Link link, final int timeout,
 			Object... additionalProperties) {
 
-		final ReactiveAsyncHttpDeleteImperativeCommandResponse<T> command = new ReactiveAsyncHttpDeleteImperativeCommandResponse<T>(
+		final ReactiveAsyncHttpDeleteCommandResponse<T> command = new ReactiveAsyncHttpDeleteCommandResponse<T>(
 				link, timeout);
 
 		final Future<CompletionStage<Response>> future = command.queue();
@@ -737,7 +737,7 @@ public class ReactiveAsyncOrchestrator implements IReactiveAsyncOrchestrator {
 	public <T> ReactiveAsyncCommandsResults<T> httpDeleteRequestForResponse(final URI uri, final int timeout,
 			Object... additionalProperties) {
 
-		final ReactiveAsyncHttpDeleteImperativeCommandResponse<T> command = new ReactiveAsyncHttpDeleteImperativeCommandResponse<T>(
+		final ReactiveAsyncHttpDeleteCommandResponse<T> command = new ReactiveAsyncHttpDeleteCommandResponse<T>(
 				uri, timeout);
 
 		final Future<CompletionStage<Response>> future = command.queue();
@@ -753,7 +753,7 @@ public class ReactiveAsyncOrchestrator implements IReactiveAsyncOrchestrator {
 	public <T> ReactiveAsyncCommandsResults<T> httpDeleteRequestForResponse(final UriBuilder uriBuilder,
 			final int timeout, Object... additionalProperties) {
 
-		final ReactiveAsyncHttpDeleteImperativeCommandResponse<T> command = new ReactiveAsyncHttpDeleteImperativeCommandResponse<T>(
+		final ReactiveAsyncHttpDeleteCommandResponse<T> command = new ReactiveAsyncHttpDeleteCommandResponse<T>(
 				uriBuilder, timeout);
 
 		final Future<CompletionStage<Response>> future = command.queue();
@@ -769,7 +769,7 @@ public class ReactiveAsyncOrchestrator implements IReactiveAsyncOrchestrator {
 	public <T> ReactiveAsyncCommandsResults<T> httpDeleteRequestForResponse(
 			final RxWebTarget<RxCompletionStageInvoker> target, final int timeout, Object... additionalProperties) {
 
-		final ReactiveAsyncHttpDeleteImperativeCommandResponse<T> command = new ReactiveAsyncHttpDeleteImperativeCommandResponse<T>(
+		final ReactiveAsyncHttpDeleteCommandResponse<T> command = new ReactiveAsyncHttpDeleteCommandResponse<T>(
 				target, timeout);
 
 		final Future<CompletionStage<Response>> future = command.queue();
