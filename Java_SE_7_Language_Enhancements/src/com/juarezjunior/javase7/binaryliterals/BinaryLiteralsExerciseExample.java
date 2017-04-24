@@ -1,6 +1,6 @@
 package com.juarezjunior.javase7.binaryliterals;
 
-public class BynaryLiteralsExerciseExample {
+public class BinaryLiteralsExerciseExample {
 
 	/**
 	 *
