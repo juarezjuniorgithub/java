@@ -1,8 +1,0 @@
-com\juarezjunior\guice\singleton\example\InjectorSingletonTest$MySingleton.class
-com\juarezjunior\guice\singleton\example\SimpleAOPInterceptor.class
-com\juarezjunior\guice\singleton\example\SingletonUtilityToBeInjected.class
-com\juarezjunior\guice\singleton\example\ClientThatUsesInjectedSingleton.class
-com\juarezjunior\guice\singleton\example\SingletonModule.class
-com\juarezjunior\guice\singleton\example\InjectorSingletonTest$ModuleOne.class
-com\juarezjunior\guice\singleton\example\InjectorSingletonTest$ModuleTwo.class
-com\juarezjunior\guice\singleton\example\InjectorSingletonTest.class
